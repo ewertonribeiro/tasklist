@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Compiled and minified CSS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous" defer></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+  <script src="./index.js" defer>
+
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+
+        <div class="card" id="main">
+          <div class="card-content">
+            <span class="card-title">
+              Task List
+            </span>
+
+            <div class="row">
+              <form id="task-form">
+                <div class="input-field col s12">
+                  <input type="text" name="task" id="task" />
+                  <label for="task">New Name</label>
+                </div>
+                <button type="submit" class="btn waves-effect waves-light">Add Task<i
+                    class="material-icons tiny right">send</i></button>
+              </form>
+            </div>
+          </div>
+          <div class="card-action">
+            <h5>Tasks</h5>
+            <div class="input-field col s12">
+              <input type="text" name="filter" id="filter">
+              <label for="filter">Filter Tasks</label>
+            </div>
+            <ul class="collection" id="task-list"></ul>
+            <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+d
